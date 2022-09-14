@@ -31,7 +31,7 @@
       .menu {
         @apply flex gap-4;
         &-item {
-          @apply rounded-2xl px-3 py-3 hover:bg-red-600 hover:text-red-300;
+          @apply rounded-2xl px-3 py-3 hover:bg-blue-700 hover:text-red-300;
         }
         &-login {
           @apply rounded-2xl bg-red-600 px-3 py-3 text-rose-100 hover:bg-slate-500;
