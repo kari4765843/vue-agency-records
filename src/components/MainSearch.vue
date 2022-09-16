@@ -24,7 +24,7 @@
   .wrapper {
     @apply relative flex w-full items-stretch;
     .search {
-      @apply rounded-md border-0 px-6 py-4 text-black placeholder-yellow-800 outline-none focus:ring focus:ring-yellow-800;
+      @apply rounded-md border-0 px-5 py-4 text-black placeholder-yellow-800 outline-none focus:ring focus:ring-yellow-800;
     }
     .icon {
       @apply absolute right-0 z-10 py-3 pr-8 text-yellow-700;

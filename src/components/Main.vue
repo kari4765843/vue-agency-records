@@ -1,16 +1,17 @@
 <script setup>
   import MainSearch from './MainSearch.vue'
+  import MainCards from './MainCards.vue'
 </script>
 
 <template>
-  <div class="Wrapper">
+  <div class="wrapper">
     <MainSearch />
-    <h1>Hello There</h1>
+    <MainCards />
   </div>
 </template>
 
-<style scoped lang="postcss">
-  .wrapper {
-    @apply container mx-auto flex flex-col gap-4 py-5;
-  }
-</style>
+<Style scoped lang="postcss">
+.wrapper {
+  @apply container mx-auto flex flex-col gap-4 py-4;
+}
+</Style>
