@@ -13,6 +13,7 @@
     }
   }
 </script>
+s
 
 <template>
   <div class="pagination">
