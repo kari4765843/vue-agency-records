@@ -6,11 +6,11 @@
 <template>
   <nav>
     <div class="Wrapper">
-      <div class="brand">
+      <RouterLink :to="{ name: 'Home' }" class="brand">
         <span class="brand-title">{{ brand }}</span>
-      </div>
+      </RouterLink>
       <div class="menu">
-        <a href="#" class="menu-item">Department</a>
+        <a href="#" class="menu-item">Departments</a>
         <a href="#" class="menu-item">Settings</a>
         <a href="#" class="menu-login">Logout</a>
       </div>
